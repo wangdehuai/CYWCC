@@ -1,0 +1,48 @@
+//
+//  Base.pch
+//  cywcc
+//
+//  Created by wangdehuai on 14/11/9.
+//  Copyright (c) 2014年 wangdehuai. All rights reserved.
+//
+
+#ifndef cywcc_Base_pch
+#define cywcc_Base_pch
+
+#import "FMDatabase.h"
+
+#define GCD_Asynchronous(gcdMethod)
+
+//获取设备的物理高度
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+//获取设备的物理宽度
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+
+#define VIEW_W(view)  (view).frame.size.width
+#define VIEW_H(view)  (view).frame.size.height
+
+#define VIEW_X(view)  (view).frame.origin.x
+#define VIEW_Y(view)  (view).frame.origin.y
+
+#define VIEW_VX(view)  (view).frame.origin.x + (view).frame.size.width
+#define VIEW_VY(view)  (view).frame.origin.y + (view).frame.size.height
+
+#define VIEW_VX_5(view)  (view).frame.origin.x + (view).frame.size.width +5
+#define VIEW_VY_5(view)  (view).frame.origin.y + (view).frame.size.height +5
+
+#define VIEW_VX_10(view)  (view).frame.origin.x + (view).frame.size.width +10
+#define VIEW_VY_10(view)  (view).frame.origin.y + (view).frame.size.height +10
+
+#define VIEW_VX_15(view)  (view).frame.origin.x + (view).frame.size.width +15
+#define VIEW_VY_15(view)  (view).frame.origin.y + (view).frame.size.height +15
+
+#define VIEW_VX_20(view)  (view).frame.origin.x + (view).frame.size.width +20
+#define VIEW_VY_20(view)  (view).frame.origin.y + (view).frame.size.height +20
+
+#define colorlightgray [UIColor colorWithRed:240.0/255.0 green:240.0/255.0 blue:240.0/255.0 alpha:1]
+#define colorgray [UIColor grayColor]
+#define colordarkgray [UIColor colorWithRed:38.0/255.0 green:38.0/255.0 blue:38.0/255.0 alpha:1]
+#define colorblue [UIColor colorWithRed:46.0/255.0 green:123.0/255.0 blue:188.0/255.0 alpha:1]
+
+#endif
